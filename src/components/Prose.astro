@@ -3,10 +3,12 @@
 // then wrap the <slot/> in <Prose></Prose>
 
 // code stuff (probably wont use in real site) needs `prose-code:before:content-none` and the same for after
+
+// use "max-w-none" so that it breaks at the end of the container instead of wherever it pleases
 ---
 
 <div class="
-  max-w-200
+  max-w-none
   prose dark:prose-invert
   prose-h1:font-bold prose-h1:text-2xl prose-h1:text-brown
   prose-h2:text-xl prose-h2:text-brown
